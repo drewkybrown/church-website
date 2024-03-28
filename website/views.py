@@ -14,3 +14,6 @@ def sermons(request):
 
 def ministries(request):
     return render(request, "ministries.html")
+
+def gallery(request):
+    return render(request, "gallery.html")
