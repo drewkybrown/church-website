@@ -17,3 +17,6 @@ def ministries(request):
 
 def gallery(request):
     return render(request, "gallery.html")
+
+def event(request):
+    return render(request, "event.html")

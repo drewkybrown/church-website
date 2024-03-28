@@ -7,4 +7,5 @@ urlpatterns = [
     path("sermons/", views.sermons, name="sermons"),
     path("ministries/", views.ministries, name="ministries"),
     path("gallery/", views.gallery, name="gallery"),
+    path("event/", views.event, name="event"),
 ]
