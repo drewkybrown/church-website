@@ -11,3 +11,6 @@ def about(request):
 
 def sermons(request):
     return render(request, "sermons.html")
+
+def ministries(request):
+    return render(request, "ministries.html")
